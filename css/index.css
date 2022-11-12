@@ -22,20 +22,27 @@ nav .btn-menu{
     background-color: rgba(0, 0, 0, 0.507);
     padding: 15px 0 15px 0;
 }
-nav .btn-menu a{
+nav .btn-menu .links, img{
     color: #fff;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.3s ease;
 }
-nav .btn-menu a:hover{
+nav .btn-menu .links:hover{
     padding: 5px;
     background: #fff;
     color: #000;
     border-radius: 15px;
 }
+nav .btn-menu img{
+    width: 35px;
+    height: 35px;
+    bottom: 5px;
+}
+
 
 .presentation{
+    margin: auto;
     height: 90vh;
     width: 100%;
     display: flex;
@@ -44,7 +51,7 @@ nav .btn-menu a:hover{
 .presentation .presentation-text{
     height: 90px;
     position: relative;
-    top: 250px;
+    top: 40%;
 }
 .presentation p{
     font-family: 'Courier New', Courier, monospace;
@@ -78,5 +85,5 @@ nav .btn-menu a:hover{
     width: 200px;
     height: 200px;
     position: relative;
-    top: 180px;
+    top: 30%;
 }
